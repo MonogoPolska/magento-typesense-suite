@@ -20,6 +20,9 @@ Configure Catalog Categories
 ### CMS Pages
 Configure Queue/Cron for indexers
 
+### Analytics
+Configure Analytics
+
 ## CLI
 
 | Command                              | Description                                      |
