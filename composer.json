@@ -8,8 +8,9 @@
         "php": ">=8.1",
         "monogo/magento-typesense-core": "^1.0",
         "monogo/magento-typesense-catalog-categories": "^1.0",
+        "monogo/magento-typesense-catalog-products": "^1.0",
         "monogo/magento-typesense-cms-pages": "^1.0",
         "monogo/magento-typesense-analytics": "^1.0"
     },
-    "version": "1.0.1"
+    "version": "1.0.2"
 }

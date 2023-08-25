@@ -33,12 +33,14 @@ Configure Analytics
 
 ## Indexers
 
-| Indexer                                                  | Description                                                                                                                        |
-|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| ```bin/magento indexer:reindex typesense_queue_runner``` | Typesense Queue Runner. To enable this, configure <br/>Stores &rarr; Configuration &rarr;Typesense &rarr; Indexing Queue / Cron    |
-| ```bin/magento indexer:reindex typesense_all```          | Metaindexer. It will runn all dependent indexes defined in modules                                                                 |
-| ```bin/magento indexer:reindex typesense_categories```   | Typesense Categories indexer. To enable this, configure <br/>Stores &rarr; Configuration &rarr;Typesense &rarr; Catalog Categories |
-| ```bin/magento indexer:reindex typesense_cms_pages```    | Typesense CMS Pages indexer. To enable this, configure <br/>Stores &rarr; Configuration &rarr;Typesense &rarr; CMS Pages           |
+| Indexer                                                        | Description                                                                                                                             |
+|----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| ```bin/magento indexer:reindex typesense_queue_runner```       | Typesense Queue Runner. To enable this, configure <br/>Stores &rarr; Configuration &rarr;Typesense &rarr; Indexing Queue / Cron         |
+| ```bin/magento indexer:reindex typesense_all```                | Metaindexer. It will runn all dependent indexes defined in modules                                                                      |
+| ```bin/magento indexer:reindex typesense_categories```         | Typesense Categories indexer. To enable this, configure <br/>Stores &rarr; Configuration &rarr;Typesense &rarr; Catalog Categories      |
+| ```bin/magento indexer:reindex typesense_products_children```  | Typesense Products children indexer. To enable this, configure <br/>Stores &rarr; Configuration &rarr;Typesense &rarr; Catalog Products |
+| ```bin/magento indexer:reindex typesense_products```           | Typesense Main Products indexer. To enable this, configure <br/>Stores &rarr; Configuration &rarr;Typesense &rarr; Catalog Products     |
+| ```bin/magento indexer:reindex typesense_cms_pages```          | Typesense CMS Pages indexer. To enable this, configure <br/>Stores &rarr; Configuration &rarr;Typesense &rarr; CMS Pages                |
 
 
 # Credits
